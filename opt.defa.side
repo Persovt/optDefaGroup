@@ -14,6 +14,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "ae4eb358-0ffd-4787-8568-52ac4b080445",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "5a2c1dec-8a78-42fc-83a6-1bf55e512fb8",
       "comment": "",
       "command": "runScript",
@@ -136,18 +143,6 @@
         ["xpath=//div[4]/button", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "91f0972b-1bbe-4133-83d3-fccdf146af0b",
-      "comment": "",
-      "command": "waitForElementPresent",
-      "target": "css=.jss34",
-      "targets": [
-        ["css=.jss34 > img", "css:finder"],
-        ["xpath=//img[@alt='B2B Motion: торговая система']", "xpath:img"],
-        ["xpath=//div[@id='app']/header/div[2]/div/div/div/a/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
-      ],
-      "value": "30000"
     }, {
       "id": "2a0d0be5-fc9f-4b44-8a36-556a89a6e0bd",
       "comment": "",
