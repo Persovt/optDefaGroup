@@ -1,0 +1,193 @@
+{
+  "id": "924fc376-6158-440f-8681-4c2a0c120ff8",
+  "version": "2.0",
+  "name": "opt.defa",
+  "url": "https://opt.defagroup.com",
+  "tests": [{
+    "id": "ed957024-66a7-4b92-8b1e-4745d4b51ee6",
+    "name": "net test",
+    "commands": [{
+      "id": "ffd3fd55-f14b-49db-8885-1787313501b7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a2c1dec-8a78-42fc-83a6-1bf55e512fb8",
+      "comment": "",
+      "command": "runScript",
+      "target": "sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd0f0cb9-e35d-44eb-8e24-1629f0bc0b2d",
+      "comment": "",
+      "command": "runScript",
+      "target": "localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d35f6723-ac76-43de-81aa-18ecd270f650",
+      "comment": "",
+      "command": "runScript",
+      "target": "location.reload()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c3c255b-3261-46c1-88d2-043176e399e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(1) > .jss32",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1) > .jss32", "css:finder"],
+        ["xpath=//div[@id='app']/header/div[2]/div/div/div/nav/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca723985-8426-4600-8e07-c78c841337b7",
+      "comment": "",
+      "command": "runScript",
+      "target": "location.reload()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb2a5f0e-64b0-44ac-b976-4642d3448c21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss109:nth-child(2) .jss192 .MuiButtonBase-root",
+      "targets": [
+        ["css=.jss109:nth-child(2) .jss192 .MuiButtonBase-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/table/tbody/tr/td[8]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66e05e95-7f91-44ab-8bdd-d173189ee242",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss109:nth-child(3) .jss192 .MuiButtonBase-root",
+      "targets": [
+        ["css=.jss109:nth-child(3) .jss192 .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/table/tbody[2]/tr/td[8]/div/form/button", "xpath:idRelative"],
+        ["xpath=//tbody[2]/tr/td[8]/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0e2125-8e79-4b42-8edc-6d7c4f0f7cec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(6)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='app']/header/div[2]/div/div/div/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c68c93-3865-4340-bba7-2e5bfd6a4510",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss474",
+      "targets": [
+        ["css=.jss474", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b6222e9-bf1c-4954-a0f2-228caec75091",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "+7 919 265-33-43"
+    }, {
+      "id": "afa5afb6-6d9e-4619-a01b-db88fc18e87f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.MuiOutlinedInput-inputAdornedEnd", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Mi260376"
+    }, {
+      "id": "0fa83a60-10e4-423b-a02a-9f6b81ef197b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss478",
+      "targets": [
+        ["css=.jss478", "css:finder"],
+        ["xpath=(//button[@type='button'])[15]", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91f0972b-1bbe-4133-83d3-fccdf146af0b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.jss34",
+      "targets": [
+        ["css=.jss34 > img", "css:finder"],
+        ["xpath=//img[@alt='B2B Motion: торговая система']", "xpath:img"],
+        ["xpath=//div[@id='app']/header/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "2a0d0be5-fc9f-4b44-8a36-556a89a6e0bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss1003",
+      "targets": [
+        ["css=.jss1003", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f00889-d183-45e9-bba7-91e207b7ad94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss1042 > .MuiContainer-root > .MuiButtonBase-root",
+      "targets": [
+        ["css=.jss1042 > .MuiContainer-root > .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9bee915-ff8c-4cf4-9e4e-44e8b3cbbcfe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4bb04cc8-f6a4-433e-8ca1-9f259649ce7b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ed957024-66a7-4b92-8b1e-4745d4b51ee6"]
+  }],
+  "urls": ["https://opt.defagroup.com/"],
+  "plugins": []
+}
